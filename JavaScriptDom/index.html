@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 3 - Dom Basic</title>
+    </head>
+    <body>
+        <p id="mytext">สวัสดี</p>
+        <button onclick="changeText()">เปลี่ยนข้อความ</button>
+
+        <p>
+        <button onclick="changeBackground()">เปลี่ยนพื้นหลัง</button>
+
+        <p>
+        <input type="text" id="nameInput" placeholder="กรอกชื่อของคุณ">
+        <button onclick="greet()">แสดงผล</button>
+        <p id="resultText"></p>
+
+        <p>
+        <input type="text" id="itemInput" placeholder="กรอกรายการ">
+        <button onclick="addItem()">เพิ่มรายการ</button>
+        <ul id="itemList"></ul>
+
+        <p>
+        <button onclick="countClick()">คลิกฉัน!</button>
+        <p id="clickCount">คุณยังไม่คลิกเลย</p>
+        
+        <script src="script.js"></script>
+    
+    </body>
+</html>
