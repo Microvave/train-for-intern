@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuerySelector Example</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class="message">ข้อความที่ 1</p>
+        <p class="message">ข้อความที่ 2</p>
+        <p class="message">ข้อความที่ 3</p>
+        <button onclick="highlight()">เน้นข้อความ</button>
+
+        <p id="text">ข้อความสำคัญ</p>
+        <button onclick="toggleHighlight()">เน้น/ยกเลิก</button>
+
+        <p id="message">ข้อความเดิม</p>
+        <button onclick="changeText()">เปลี่ยนข้อความ</button>
+
+        <h1>รายการข้อความ</h1>
+        <div id ="container"></div>
+        <button onclick="addMessage()">เพิ่มข้อความ</button>
+        <button onclick="removeMessage()">ลบข้อความล่าสุด</button>
+
+        <button id="hoverbtn">เอาเมาส์วางบนฉันสิ</button>
+        <p id="status"></p>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
