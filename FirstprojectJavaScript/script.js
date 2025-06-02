@@ -77,7 +77,7 @@ console.log(data[100]);
 let data = null;
 console.log(data);
 console.log(typeof data);
-*/
+
 
 let data = null;
 let result = 2 * data;
@@ -86,3 +86,44 @@ if (!data){
     console.log('data is false');
 }
 
+
+//ความแตกต่างระหว่าง null และ undefined
+let data;
+console.log(typeof data);
+data = 10;
+console.log(typeof data);
+data = null;
+console.log(typeof data);
+data = "hello";
+console.log(typeof data);
+
+//ชนิิดข้อมูลแบบ Biglnt
+let myBiglnt = 123456789n;
+let youBriglnt = -12345n;
+let biBiglnt = 0b11000111000011010;
+let octBiglnt = 0o1234567;
+let hexBight = 0x123456789abcdefn;
+console.log(myBiglnt, youBriglnt, biBiglnt, octBiglnt, hexBight);
+
+*/
+
+let myBigInt = BigInt(123456789);
+let yourBigInt = BigInt('-12345');
+let resultBigInt = myBigInt + yourBigInt;
+//let resultBigInt2 = myBigInt - 10;
+console.log(myBigInt, yourBigInt, resultBigInt);
+
+
+const symA = Symbol();
+console.log(typeof symA);
+
+const symB = Symbol.for('id');
+const symC = Symbol.for('id');
+console.log(symB === symC);
+
+const sysmbolData = Symbol.for('hello');
+const key = Symbol.keyFor(sysmbolData);
+console.log(key === 'hello');
+
+const newsymbData = Symbol.for('hello');
+console.log(sysmbolData === newsymbData);
