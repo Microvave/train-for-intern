@@ -127,3 +127,32 @@ console.log(key === 'hello');
 
 const newsymbData = Symbol.for('hello');
 console.log(sysmbolData === newsymbData);
+
+//ชนิดข้อมูลแบบ string
+let firstName = "micro";
+let secondName = 'wave';
+let thridName = `wave`;
+let myspace = " ";
+let fullname = "micro"+"wave";
+console.log(firstName, secondName, thridName);
+console.log(firstName + secondName);
+console.log(fullname);
+
+//กำหนดสตริงแบบหลายบรรทัด
+let a = `w
+a
+v
+e`;
+console.log(a);
+
+//การใช้ Escape charecter
+var sentence = "she said : \" Love me love my dog.\"";
+var sentence2 = 'I\'ve been to the stote.';
+console.log(sentence);
+console.log(sentence2);
+
+
+let hi = "Hello world";
+let first_a = hi[0];
+console.log(hi);
+console.log(first_a);
