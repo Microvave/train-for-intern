@@ -262,7 +262,7 @@ let result2 = myText3.indexOf("z");
 console.log(result);
 console.log(result2); // -1 หมายถึงไม่พบตัวอักษรที่ค้นหา
 
-*/
+
 
 
 //ค้นหาและแทนที่ข้อความในสตริง
@@ -271,3 +271,102 @@ let result = myText.replace("go", "hi");
 let result2 = myText.replaceAll("x", "hi");
 console.log(result);
 console.log(result2);
+*/
+
+
+//ชนิดข้อมูลแบบ number
+let number1 = -10;
+let number2 = 10;
+let number3 = 0;
+console.log(typeof number1);
+console.log(typeof number2);
+console.log(typeof number3);
+
+//number จะเป็นตัวเลขทศนิยมเสมอ
+let number4 = 10.;
+let number5 = 10.00;
+console.log(number4 == number5); 
+
+//แสดงตัวเลขที่มีค่ามาก หรือ น้้อยมากๆ 
+let number6 = 1.23e5; 
+let number7 = 1.987e-4;
+console.log(number6);
+console.log(number7);
+
+//การเขียนตัวเลขที่มีหลายหลัก
+let number8 = 1e6; 
+let number9 = 1.257e7;
+console.log(number8);
+console.log(number9);
+
+//การบวกเครื่องคณิตศาสตร์ 
+let result1 = 10 + 0.1;
+let result2 = 10 - 0.1;
+console.log(result1);
+console.log(result2);
+
+//การนำสตริงมาบวกกับตัวเลข
+let result = "wave" + 10;
+console.log(result); 
+console.log(typeof result); 
+
+let myText = "wave" * 10;
+console.log(myText); // NaN
+
+
+//ช่องว่างในนิพจน์
+let result3 = 10 + 20;
+let result4 = 10+20;
+let result5 = 10 + 
+5;
+console.log(result3);
+console.log(result4);
+console.log(result5); 
+
+//การคูณและหาร
+let result6 = 10;
+let result7 = 20;
+let result8 = (result6 * result7);
+let result9 = (result6 / result7);
+console.log(result8);
+console.log(result9);
+
+//nan
+let number10 = "wave" * 10;
+let number11 = "wave" + 10;
+console.log(number10); // NaN
+console.log(number11); // wave10
+
+//infinity
+let number12 = 0 / 0;
+let number13 = 10 / 0;
+let number14 = -10 / 0;
+console.log(number12); // NaN
+console.log(number13); // Infinity
+console.log(number14); // -Infinity
+
+//การยกกำลัง  
+let base = 2;
+let result10 = base ** 3; // 2 * 2 * 2
+console.log(result10); // 8
+
+//หารเอาเครื่องหมาย %
+let result11 = 10 % 3; // 10 หาร 3 เหลือเศษ 1
+let result12 = 10 % 2; // 10 หาร 2 เหลือเศษ 0
+let result13 = -10 % 3; // -10 หาร 3 เหลือเศษ -1
+console.log(result11); // 1
+console.log(result12); // 0
+console.log(result13); // -1
+
+//สลับค่าตัวเลข
+let a = 10;
+let b = -a;
+console.log(a); // 10
+console.log(b); // -10
+
+//ชนิดของโอเปอเรเตอร์ 
+//ternary operator
+let randomData = Math.floor(Math.random() * 10) + 1;
+console.log(randomData);
+
+
