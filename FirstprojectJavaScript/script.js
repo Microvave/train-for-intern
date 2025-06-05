@@ -271,7 +271,7 @@ let result = myText.replace("go", "hi");
 let result2 = myText.replaceAll("x", "hi");
 console.log(result);
 console.log(result2);
-*/
+
 
 
 //ชนิดข้อมูลแบบ number
@@ -368,5 +368,5 @@ console.log(b); // -10
 //ternary operator
 let randomData = Math.floor(Math.random() * 10) + 1;
 console.log(randomData);
-
+*/
 
