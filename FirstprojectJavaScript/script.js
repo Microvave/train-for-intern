@@ -370,3 +370,61 @@ let randomData = Math.floor(Math.random() * 10) + 1;
 console.log(randomData);
 */
 
+function greeting() {
+    console.log("Hello, welcome to my JavaScript project!");
+}
+
+greeting();
+
+function say(text) {
+    console.log(text);
+}
+
+say("Hello world");
+say("Good bye ");
+
+//ลำดับพารามิเตอร์ 
+function subtract(a, b) {
+    console.log(a - b);
+}
+
+subtract(10, 15);
+subtract(20, 10);
+
+//นำค่าอาร์กิวเมนต์มาคำนวณ
+function add(x, y) {
+    console.log(x + y);
+}
+
+add(3, 4);
+add(3);
+
+//หารตัวเลขด้วยศูนย์ 
+function devide(x, y) {
+    console.log(x / y);
+}
+
+devide(10, 2);
+devide(10, 0); // จะเกิดข้อผิดพลาด NaN
+devide(10); // จะเกิดข้อผิดพลาด NaN
+
+//ผ่านค่าอาร์กิวเมนต์มากกว่าหนึ่งค่า 
+
+function youfunction(a, b, c) {
+    console.log(a + b + c);
+}
+youfunction(1, 2,);
+youfunction(1, 2, 3);
+
+//ฟังก์ชันจะสิ้นสุดการทำงานเมื่อเจอคำสั่ง return
+function myFunction(a, b) {
+    let data = 10;
+    return data;
+    console.log('your data is : ${text}');
+    data = 20;
+}
+
+let result = myFunction("Hello");
+console.log(result); // 10
+
+
