@@ -367,6 +367,108 @@ console.log(b); // -10
 //ชนิดของโอเปอเรเตอร์ 
 //ternary operator
 let randomData = Math.floor(Math.random() * 10) + 1;
-console.log(randomData);
+<<<<<<< HEAD
+// ของฝั่ง GitHub
+console.log("อันนี้จาก remote");
+=======
+console.log("อันนี้จากเครื่องคุณ");
+>>>>>>> ae3a38c แก้ไข script.js ก่อน pull
+
+
+//โอเปอเรอเตอร์สำหรับลดค่า
+let myData3 = 10;
+myData3--;
+console.log(myData3); // 9
+//ถ้านำ -- ไปวางหน้าตัวแปรจะได้ผลลัพธ์ที่แตกต่างกัน
+
+//การใช้ Assignment operator
+let first = 1;
+let second = 2;
+let third = 3;
+let forsth = 4;
+let fifth = 5;
+console.log(first +=1);
+console.log(second /= 1);
+console.log(third *= 2);
+console.log(forsth -= 1);
+console.log(fifth ** 2); 
+
+//หารากที่สอง 
+let myNumber = Math.sqrt(16);
+console.log(myNumber); // 4
+
+//ปัดเศษทศนิยม
+let myNumber2 = Math.round (10.5);
+console.log(myNumber2); // 11
+
+//ปัดเศษลง 
+let myNumber3 = Math.floor(10.9);   
+console.log(myNumber3); // 10
+
+//สุ่มตัวเลข
+let random = Math.random(); // สุ่มตัวเลขระหว่าง 0 ถึง 1
+let random2 = Math.random() * 10; // สุ่มตัวเลขระหว่าง 0 ถึง 10
+let random3 = Math.floor(Math.random() * 10)+1; // สุ่มตัวเลขระหว่าง 1 ถึง 10
+
+console.log(random);
+console.log(random2);
+console.log(random3); // 1 ถึง 10
 */
 
+function greeting(){
+    console.log("Hello, welcome to my JavaScript project!");
+}
+
+greeting();
+
+function say(text){
+    console.log(text);    
+}
+
+say("Hello world");
+say("Good bye ");
+
+//ลำดับพารามิเตอร์ 
+function subtract(a,b){
+    console.log(a-b);
+}
+
+subtract(10,15);
+subtract(20,10);
+
+//นำค่าอาร์กิวเมนต์มาคำนวณ
+function add(x,y){
+    console.log(x + y);
+}
+
+add(3,4);
+add(3);
+
+//หารตัวเลขด้วยศูนย์ 
+function devide(x,y){
+    console.log(x / y);
+}
+
+devide(10,2);
+devide(10,0); // จะเกิดข้อผิดพลาด NaN
+devide(10); // จะเกิดข้อผิดพลาด NaN
+
+//ผ่านค่าอาร์กิวเมนต์มากกว่าหนึ่งค่า 
+
+function youfunction(a,b,c){
+    console.log(a + b + c);
+}
+youfunction(1,2,);
+youfunction(1,2,3);
+
+//ฟังก์ชันจะสิ้นสุดการทำงานเมื่อเจอคำสั่ง return
+function myFunction(a,b){
+    let data = 10;
+    return data;
+    console.log(`your data is : ${text}`);
+    data = 20;
+}
+
+let result = myFunction("Hello");
+console.log(result); // 10
+  
