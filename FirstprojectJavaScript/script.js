@@ -274,6 +274,7 @@ console.log(result2);
 
 
 
+
 //ชนิดข้อมูลแบบ number
 let number1 = -10;
 let number2 = 10;
