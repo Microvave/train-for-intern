@@ -368,12 +368,8 @@ console.log(b); // -10
 //ชนิดของโอเปอเรเตอร์ 
 //ternary operator
 let randomData = Math.floor(Math.random() * 10) + 1;
-<<<<<<< HEAD
 // ของฝั่ง GitHub
 console.log("อันนี้จาก remote");
-=======
-console.log("อันนี้จากเครื่องคุณ");
->>>>>>> ae3a38c แก้ไข script.js ก่อน pull
 
 
 //โอเปอเรอเตอร์สำหรับลดค่า
