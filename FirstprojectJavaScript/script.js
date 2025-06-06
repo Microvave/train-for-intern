@@ -473,9 +473,9 @@ console.log(result); // 10
 function dice(){
     let random = Math.floor(Math.random() * 6) + 1;
     if(random >=4){
-        return '${random} is high';
+        return `${random} is high`;
     }
-    return '${random} is low';
+    return `${random} is low`;
 }
 
 let result2 = dice();
