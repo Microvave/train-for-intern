@@ -468,4 +468,16 @@ function myFunction(a,b){
 
 let result = myFunction("Hello");
 console.log(result); // 10
+
+//สุ่มตัวเลขต่ำและสูง 
+function dice(){
+    let random = Math.floor(Math.random() * 6) + 1;
+    if(random >=4){
+        return '${random} is high';
+    }
+    return '${random} is low';
+}
+
+let result2 = dice();
+console.log(result2); // 1 ถึง 6
   
