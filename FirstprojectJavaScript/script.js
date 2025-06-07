@@ -288,196 +288,224 @@ let number4 = 10.;
 let number5 = 10.00;
 console.log(number4 == number5); 
 
-//แสดงตัวเลขที่มีค่ามาก หรือ น้้อยมากๆ 
-let number6 = 1.23e5; 
-let number7 = 1.987e-4;
-console.log(number6);
-console.log(number7);
+// //แสดงตัวเลขที่มีค่ามาก หรือ น้้อยมากๆ 
+// let number6 = 1.23e5; 
+// let number7 = 1.987e-4;
+// console.log(number6);
+// console.log(number7);
 
-//การเขียนตัวเลขที่มีหลายหลัก
-let number8 = 1e6; 
-let number9 = 1.257e7;
-console.log(number8);
-console.log(number9);
+// //การเขียนตัวเลขที่มีหลายหลัก
+// let number8 = 1e6; 
+// let number9 = 1.257e7;
+// console.log(number8);
+// console.log(number9);
 
-//การบวกเครื่องคณิตศาสตร์ 
-let result1 = 10 + 0.1;
-let result2 = 10 - 0.1;
-console.log(result1);
-console.log(result2);
+// //การบวกเครื่องคณิตศาสตร์ 
+// let result1 = 10 + 0.1;
+// let result2 = 10 - 0.1;
+// console.log(result1);
+// console.log(result2);
 
-//การนำสตริงมาบวกกับตัวเลข
-let result = "wave" + 10;
-console.log(result); 
-console.log(typeof result); 
+// //การนำสตริงมาบวกกับตัวเลข
+// let result = "wave" + 10;
+// console.log(result); 
+// console.log(typeof result); 
 
-let myText = "wave" * 10;
-console.log(myText); // NaN
-
-
-//ช่องว่างในนิพจน์
-let result3 = 10 + 20;
-let result4 = 10+20;
-let result5 = 10 + 
-5;
-console.log(result3);
-console.log(result4);
-console.log(result5); 
-
-//การคูณและหาร
-let result6 = 10;
-let result7 = 20;
-let result8 = (result6 * result7);
-let result9 = (result6 / result7);
-console.log(result8);
-console.log(result9);
-
-//nan
-let number10 = "wave" * 10;
-let number11 = "wave" + 10;
-console.log(number10); // NaN
-console.log(number11); // wave10
-
-//infinity
-let number12 = 0 / 0;
-let number13 = 10 / 0;
-let number14 = -10 / 0;
-console.log(number12); // NaN
-console.log(number13); // Infinity
-console.log(number14); // -Infinity
-
-//การยกกำลัง  
-let base = 2;
-let result10 = base ** 3; // 2 * 2 * 2
-console.log(result10); // 8
-
-//หารเอาเครื่องหมาย %
-let result11 = 10 % 3; // 10 หาร 3 เหลือเศษ 1
-let result12 = 10 % 2; // 10 หาร 2 เหลือเศษ 0
-let result13 = -10 % 3; // -10 หาร 3 เหลือเศษ -1
-console.log(result11); // 1
-console.log(result12); // 0
-console.log(result13); // -1
-
-//สลับค่าตัวเลข
-let a = 10;
-let b = -a;
-console.log(a); // 10
-console.log(b); // -10
-
-//ชนิดของโอเปอเรเตอร์ 
-//ternary operator
-let randomData = Math.floor(Math.random() * 10) + 1;
-// ของฝั่ง GitHub
-console.log("อันนี้จาก remote");
+// let myText = "wave" * 10;
+// console.log(myText); // NaN
 
 
-//โอเปอเรอเตอร์สำหรับลดค่า
-let myData3 = 10;
-myData3--;
-console.log(myData3); // 9
-//ถ้านำ -- ไปวางหน้าตัวแปรจะได้ผลลัพธ์ที่แตกต่างกัน
+// //ช่องว่างในนิพจน์
+// let result3 = 10 + 20;
+// let result4 = 10+20;
+// let result5 = 10 + 
+// 5;
+// console.log(result3);
+// console.log(result4);
+// console.log(result5); 
 
-//การใช้ Assignment operator
-let first = 1;
-let second = 2;
-let third = 3;
-let forsth = 4;
-let fifth = 5;
-console.log(first +=1);
-console.log(second /= 1);
-console.log(third *= 2);
-console.log(forsth -= 1);
-console.log(fifth ** 2); 
+// //การคูณและหาร
+// let result6 = 10;
+// let result7 = 20;
+// let result8 = (result6 * result7);
+// let result9 = (result6 / result7);
+// console.log(result8);
+// console.log(result9);
 
-//หารากที่สอง 
-let myNumber = Math.sqrt(16);
-console.log(myNumber); // 4
+// //nan
+// let number10 = "wave" * 10;
+// let number11 = "wave" + 10;
+// console.log(number10); // NaN
+// console.log(number11); // wave10
 
-//ปัดเศษทศนิยม
-let myNumber2 = Math.round (10.5);
-console.log(myNumber2); // 11
+// //infinity
+// let number12 = 0 / 0;
+// let number13 = 10 / 0;
+// let number14 = -10 / 0;
+// console.log(number12); // NaN
+// console.log(number13); // Infinity
+// console.log(number14); // -Infinity
 
-//ปัดเศษลง 
-let myNumber3 = Math.floor(10.9);   
-console.log(myNumber3); // 10
+// //การยกกำลัง  
+// let base = 2;
+// let result10 = base ** 3; // 2 * 2 * 2
+// console.log(result10); // 8
 
-//สุ่มตัวเลข
-let random = Math.random(); // สุ่มตัวเลขระหว่าง 0 ถึง 1
-let random2 = Math.random() * 10; // สุ่มตัวเลขระหว่าง 0 ถึง 10
-let random3 = Math.floor(Math.random() * 10)+1; // สุ่มตัวเลขระหว่าง 1 ถึง 10
+// //หารเอาเครื่องหมาย %
+// let result11 = 10 % 3; // 10 หาร 3 เหลือเศษ 1
+// let result12 = 10 % 2; // 10 หาร 2 เหลือเศษ 0
+// let result13 = -10 % 3; // -10 หาร 3 เหลือเศษ -1
+// console.log(result11); // 1
+// console.log(result12); // 0
+// console.log(result13); // -1
 
-console.log(random);
-console.log(random2);
-console.log(random3); // 1 ถึง 10
-*/
+// //สลับค่าตัวเลข
+// let a = 10;
+// let b = -a;
+// console.log(a); // 10
+// console.log(b); // -10
 
-function greeting(){
-    console.log("Hello, welcome to my JavaScript project!");
-}
+// //ชนิดของโอเปอเรเตอร์ 
+// //ternary operator
+// let randomData = Math.floor(Math.random() * 10) + 1;
+// // ของฝั่ง GitHub
+// console.log("อันนี้จาก remote");
 
-greeting();
 
-function say(text){
-    console.log(text);    
-}
+// //โอเปอเรอเตอร์สำหรับลดค่า
+// let myData3 = 10;
+// myData3--;
+// console.log(myData3); // 9
+// //ถ้านำ -- ไปวางหน้าตัวแปรจะได้ผลลัพธ์ที่แตกต่างกัน
 
-say("Hello world");
-say("Good bye ");
+// //การใช้ Assignment operator
+// let first = 1;
+// let second = 2;
+// let third = 3;
+// let forsth = 4;
+// let fifth = 5;
+// console.log(first +=1);
+// console.log(second /= 1);
+// console.log(third *= 2);
+// console.log(forsth -= 1);
+// console.log(fifth ** 2); 
 
-//ลำดับพารามิเตอร์ 
-function subtract(a,b){
-    console.log(a-b);
-}
+// //หารากที่สอง 
+// let myNumber = Math.sqrt(16);
+// console.log(myNumber); // 4
 
-subtract(10,15);
-subtract(20,10);
+// //ปัดเศษทศนิยม
+// let myNumber2 = Math.round (10.5);
+// console.log(myNumber2); // 11
 
-//นำค่าอาร์กิวเมนต์มาคำนวณ
-function add(x,y){
-    console.log(x + y);
-}
+// //ปัดเศษลง 
+// let myNumber3 = Math.floor(10.9);   
+// console.log(myNumber3); // 10
 
-add(3,4);
-add(3);
+// //สุ่มตัวเลข
+// let random = Math.random(); // สุ่มตัวเลขระหว่าง 0 ถึง 1
+// let random2 = Math.random() * 10; // สุ่มตัวเลขระหว่าง 0 ถึง 10
+// let random3 = Math.floor(Math.random() * 10)+1; // สุ่มตัวเลขระหว่าง 1 ถึง 10
 
-//หารตัวเลขด้วยศูนย์ 
-function devide(x,y){
-    console.log(x / y);
-}
+// console.log(random);
+// console.log(random2);
+// console.log(random3); // 1 ถึง 10
+// */
 
-devide(10,2);
-devide(10,0); // จะเกิดข้อผิดพลาด NaN
-devide(10); // จะเกิดข้อผิดพลาด NaN
+// function greeting(){
+//     console.log("Hello, welcome to my JavaScript project!");
+// }
 
-//ผ่านค่าอาร์กิวเมนต์มากกว่าหนึ่งค่า 
+// greeting();
 
-function youfunction(a,b,c){
-    console.log(a + b + c);
-}
-youfunction(1,2,);
-youfunction(1,2,3);
+// function say(text){
+//     console.log(text);    
+// }
 
-//ฟังก์ชันจะสิ้นสุดการทำงานเมื่อเจอคำสั่ง return
-function myFunction(a,b){
-    let data = 10;
-    return data;
-    console.log(`your data is : ${text}`);
-    data = 20;
-}
+// say("Hello world");
+// say("Good bye ");
 
-let result = myFunction("Hello");
-console.log(result); // 10
+// //ลำดับพารามิเตอร์ 
+// function subtract(a,b){
+//     console.log(a-b);
+// }
 
-//สุ่มตัวเลขต่ำและสูง 
-function dice(){
-    let random = Math.floor(Math.random() * 6) + 1;
-    if(random >=4){
-        return `${random} is high`;
-    }
-    return `${random} is low`;
-}
+// subtract(10,15);
+// subtract(20,10);
 
-let result2 = dice();
-console.log(result2); // 1 ถึง 6
+// //นำค่าอาร์กิวเมนต์มาคำนวณ
+// function add(x,y){
+//     console.log(x + y);
+// }
+
+// add(3,4);
+// add(3);
+
+// //หารตัวเลขด้วยศูนย์ 
+// function devide(x,y){
+//     console.log(x / y);
+// }
+
+// devide(10,2);
+// devide(10,0); // จะเกิดข้อผิดพลาด NaN
+// devide(10); // จะเกิดข้อผิดพลาด NaN
+
+// //ผ่านค่าอาร์กิวเมนต์มากกว่าหนึ่งค่า 
+
+// function youfunction(a,b,c){
+//     console.log(a + b + c);
+// }
+// youfunction(1,2,);
+// youfunction(1,2,3);
+
+// //ฟังก์ชันจะสิ้นสุดการทำงานเมื่อเจอคำสั่ง return
+// function myFunction(a,b){
+//     let data = 10;
+//     return data;
+//     console.log(`your data is : ${text}`);
+//     data = 20;
+// }
+
+// let result = myFunction("Hello");
+// console.log(result); // 10
+
+// //สุ่มตัวเลขต่ำและสูง 
+// function dice(){
+//     let random = Math.floor(Math.random() * 6) + 1;
+//     if(random >=4){
+//         return `${random} is high`;
+//     }
+//     return `${random} is low`;
+// }
+
+// let result2 = dice();
+// console.log(result2); // 1 ถึง 6
+
+// function myFunc(a=0, b, c){
+//     console.log(a, b, c);
+// }
+// function yourFunc(a = 0, b = 1, c){
+//     console.log(a, b, c);
+// }
   
+// myFunc(9,10);
+// yourFunc(1,2);
+// yourFunc(1);
+
+// function myFunction(){
+//     console.log("Hello world");
+// }
+// myFunction(); 
+
+
+//การประกาศฟังก์ชันแบบ expression
+const yourFunction = function(){
+    console.log("Hello world");
+}
+yourFunction(); // เรียกใช้งานฟังก์ชันที่ประกาศด้วย expression
+
+
+const myFunction2 = function(){
+    console.log("Hello world");
+}
+myFunction2();
